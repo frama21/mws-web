@@ -1,0 +1,32 @@
+[
+	{ "location":[-6.894628, 107.602192],
+	  "judul":"Iga Bakar Si Jangkung",
+	  "komen":"Nurjhonson C : \"Dagingnya Lembut. Pedasnya Pas. Pokoknya enak banget, ditambah dihidangkan pas panas2 berasap. Waaahhhh, jadi pengen ke sini lagiiii\"",
+	  "image":"img/asset/iga-si-jangkung.jpg",
+	  "marker":{} 
+	},
+	{ "location":[-6.919570, 107.613895],
+	  "judul":"Wingz O Wingz",
+	  "komen":"Ufi R : \"Chicken wing di Wingz o Wingz ini punya berbagai topping yang semuanya enak, rekomendasi aku adalah peppercheese dan salted egg. Dengan harga kantong mahasiswa banget, affordable deh, kamu bisa enjoy makanan enaaak. Selain chicken wingz, ada western food lain yang ga kalah enak. Tempatnya cukup nyaman, bersih, dan terdapat Wi-Fi\"",
+	  "image":"img/asset/wingz-o-wingz.jpg",
+	  "marker":{} 
+	},
+	{ "location":[-6.911987, 107.599340],
+	  "judul":"Kandang Ayam",
+	  "komen":"queenriri21 : \"Menu yang di sajikan ayam dengan banyak varian, sesuai namanya kandang ayam, untuk rasa lumayan bervariasi, tapi tempatnya sangat kecil dan banyak pengamen keluar masuk, cukup mengganggu di saat makan.",
+	  "image":"img/asset/kandang-ayam.jpg",
+	  "marker":{} 
+	},
+	{ "location":[-6.904660, 107.618294],
+	  "judul":"Hummingbird Eatery",
+	  "komen":"Hendrik Z : \"Pertama kali saya mencoba di hummingbird karena recommend dari mama saya dan saya mencoba cemilan dan minuman yang saya pesan langsung enak di lidah dan ingin kembali lagi ke tempat.Kemudian pelayanan terhadap Risty pun saya senang di banding tempat yang lain karena melayani dengan baik dengan customer juga membantu keponakan saya yang kesulitan dalam mengakses WiFi dan itu patut di contoh oleh karyawan lain.",
+	  "image":"img/asset/hummingbird-eatery.jpg",
+	  "marker":{} 
+	},
+	{ "location":[-6.885998, 107.603904],
+	  "judul":"Street Grill and Friends",
+	  "komen":"NisaW26 : \"pesan sirloin wagyu kebetulan lagi ada promo diskon 20% atau free pizza. Platingnya lucu, dagingnya empukk tebal, tingkat kematangan steak sesuai yg diinginkan. coba beli sirloin lokal sbg perbandingan, soal rasa ga terlalu kebanting dibanding wagyu kok. masih sama2 enak. pelayanan ramah dan cepat tanggap. ga pelit2 kalo pengen request ini itu. rekomendid lah. Terimakasih.",
+	  "image":"img/asset/street-grill-and-friends.jpg",
+	  "marker":{} 
+	}
+]

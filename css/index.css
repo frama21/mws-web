@@ -1,0 +1,111 @@
+body{
+  background: #ECEFF1; 
+  color: rgba(0,0,0,0.87); 
+  font-family: Roboto, Helvetica, Arial, sans-serif;      
+}
+#mapid{
+  height: 200px; 
+}
+.container{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 0.5fr repeat(3, 1fr);
+  grid-template-rows: 10% 10% 61% 10% 5%;
+  grid-gap: 5px;
+}
+.menu{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color:#039be5 ;     
+  border-radius: 10px 10px 0px 0px; 
+  box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+  height: 50px;
+  padding: 15px;
+  /*position: absolute;*/
+  display: inline-block;
+  /*grid-column: 1/1;
+  width: 5%;
+  height: 60%;*/
+}
+.img{
+  width: 100%;
+  height: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+.sidebar{
+  background:white;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column: 1/1;
+  box-shadow: -4px 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.konten{
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #b3e5fc;
+  grid-column: 2/5;
+  padding: 0px 25px 20px;
+}
+.footer{
+  border-radius: 0px 0px 10px 10px; 
+  background: black;
+  grid-column: 1/5;
+  grid-row: 5/6;
+  text-align: center;
+  color: white;
+  padding: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-map{ 
+  background: white; 
+  margin: 15px 15px;
+  padding: 20px 20px; 
+  border-radius: 10px; 
+  transition: box-shadow .3s;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.card{ 
+  background: white;
+  max-width: 300px;  
+  padding: 32px 24px; 
+  border-radius: 20px; 
+  transition: box-shadow .3s;
+}
+.card h2{ 
+  color: #ffa100; 
+  font-weight: bold; 
+  font-size: 16px; 
+  margin: 0 0 8px; 
+}
+.card h1{ 
+  font-size: 22px; 
+  font-weight: 300; 
+  color: rgba(0,0,0,0.6); 
+  margin: 0 0 16px;
+}
+.card p{ 
+  line-height: 140%; 
+  margin: 16px 0 24px; 
+  font-size: 14px; 
+}
+.footer-card{
+  padding: 5px 0px;
+  text-align: left;
+}
+.hover:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn{ 
+  border:none;
+  display: inline-block;
+  text-align: center; 
+  background: #039be5; 
+  text-transform: uppercase; 
+  text-decoration: none; 
+  color: white; 
+  padding: 7px 16px; 
+  border-radius: 20px; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+}

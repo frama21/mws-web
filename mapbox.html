@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <title>Lokasi Istimewa dengan Mapbox</title>
+
+    <!-- leaflet css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
+
+    <!-- leaflet js -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"> </script>
+
+    <link rel="stylesheet" href="css/mapbox.css">
+
+  </head>
+  <body>
+
+    <section id="mapbox-area">
+      <header class="box">
+        <div class="content">
+          <h3> <a href="/">Back</a></h3>
+          <h1 class="container-title">Project 2 : Lokasi Istimewa dengan Mapbox</h1>
+          <p>Type : Restaurant, Default Location : Bandung (UNIKOM)</p>
+        </div>
+      </header>
+      <main>
+        <section id="mapid">
+
+        </section>
+        <section id="map-message" class="content content-box bordered">
+            Loading
+        </section>
+
+      </main>
+      <footer id="review-area">
+        <section id="review-msg-empty">
+          <h3>Click one of the pins to see the review</h3>
+        </section>
+        <section id="location-photo">
+          <h1>Related Pictures</h1>
+          <div id="photo-list">
+
+          </div>
+        </section>
+        <section id="location-review">
+          <h1>Reviews</h1>
+          <div id="review-list">
+
+          </div>
+        </section>
+      </footer>
+    </section>
+
+    <script type="text/javascript" src="js/map.js">
+    </script>
+  </body>
+</html>

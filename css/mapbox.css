@@ -1,0 +1,253 @@
+
+/*
+  Styles
+*/
+html, body{
+  margin:0px;
+  padding:0px;
+  font-family: 'Roboto', sans-serif;
+  color:var(--color-black);
+}
+
+main, section, div, article, footer, header, nav{
+  box-sizing: border-box;
+}
+
+
+.text-align-right{
+  text-align: right;
+}
+
+.text-align-left{
+  text-align: left;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+
+.content{
+  max-width: 799px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.box{
+  padding: 16px 0px;
+}
+
+.bordered{
+  border:1px solid var(--color-link);
+}
+
+
+@media screen and (max-width:799px){
+  .box{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.content-box{
+  padding:32px;
+}
+
+.container.dark{
+  color:white;
+}
+
+
+.button{
+  min-width: 40px;
+  min-height: 40px;
+  background: white;
+  text-decoration: none;
+  padding: 8px;
+  border:1px solid grey;
+  color: var(--color-black);
+  font-weight: bold;
+  transition: all ease 0.2s;
+}
+
+.button:hover, .button:focus{
+  color:white;
+  background:var(--color-black);
+  cursor: pointer;
+}
+
+
+input{
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width:550px){
+  input{
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+
+a, a:visited, a:link{
+  text-decoration: none;
+  color:var(--color-link);
+}
+
+a:hover, a:focus{
+  color:var(--color-black);
+  border-bottom : 1px solid var(--color-black);
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+  margin:0px;
+  padding: 0px;
+}
+
+.project-title{
+  display: inline-block;
+  font-weight: bold;
+  min-width: 100px;
+}
+
+
+.container-title{
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+
+:root{
+  --color-black: #585858;
+  --color-link: #707070;
+}
+
+#mapbox-area{
+  position: relative;
+  display: grid;
+  grid-template-rows: 0.03fr 1fr minmax(0, 0.5fr);
+  grid-template-columns: 1fr;
+  height: 100vh;
+}
+
+#mapbox-area > header{
+  position: relative;
+  z-index: 99;
+  border-bottom:1px solid var(--color-link);
+}
+
+#mapbox-area > header .container-title{
+  margin-bottom:0px;
+}
+
+#mapbox-area > header .container-title + p{
+  font-weight: 300;
+}
+
+#mapbox-area > main > #mapid{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#mapbox-area > main > #map-message{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+  font-weight: 300;
+}
+
+#review-area{
+  display: grid;
+  grid-template-columns: 0.6fr minmax(0,0.4fr);
+  grid-template-rows: minmax(0,1fr);
+  position: relative;
+  height: 100%;
+}
+
+#review-area > #location-photo,
+#review-area > #location-review{
+  padding:8px;
+  position: relative;
+  height: 100%;
+}
+
+#location-photo > #photo-list,
+#location-review > #review-list{
+  padding:8px;
+  overflow-y: scroll;
+  position: relative;
+  height: calc(100% - 25px);
+  font-size: 0.85em;
+}
+
+#location-photo > #photo-list{
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+
+}
+
+#review-area #review-msg-empty{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:8px;
+  display: none;
+}
+
+#review-area #review-msg-empty > h3{
+  text-align: center;
+  font-weight: 300;
+}
+
+#review-area:not(.show) #location-review,
+#review-area:not(.show) #location-photo{
+  display: none;
+}
+
+#review-area:not(.show) #review-msg-empty{
+  display: block;
+}
+
+#location-review .review-author{
+  font-size: 1em;
+  font-weight: 300;
+}
+#location-review .review-text{
+  font-size: 1.25em;
+}
+.review-box{
+  border:1px solid var(--color-black);
+  padding:8px;
+  margin-bottom:8px;
+}
+
+.review-box:last-of-type{
+  margin-bottom:0px;
+}
+
+.review-box p{
+  overflow-wrap: break-word;
+}
+
+
+.location-photo{
+  position: relative;
+  width:100%;
+}
